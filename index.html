@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lead Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Lead Manager</h1>
+
+    <div class="form">
+      <input type="text" id="name" placeholder="Name">
+      <input type="email" id="email" placeholder="Email">
+      <button onclick="addLead()">Add</button>
+    </div>
+
+    <input type="text" id="search" placeholder="Search leads..." onkeyup="searchLead()">
+
+    <ul id="leadList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
